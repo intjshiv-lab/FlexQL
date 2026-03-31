@@ -53,7 +53,7 @@ Github : https://github.com/intjshiv-lab/FlexQL
 
 ## 1. Document Purpose & Audience
 
-This is the design doc for **FlexQL** — an in-memory SQL database engine I wrote from scratch in C++17. It covers every major architectural decision, including what I chose *not* to do and why. If something seems over-explained, that's intentional — I wanted a record of my thinking, not just the final result.
+This is the design doc for **FlexQL** —  A from-scratch SQL database engine with persistence. C++17, zero dependencies, ~7,333 lines. It covers every major architectural decision, including what I chose *not* to do and why. If something seems over-explained, that's intentional — I wanted a record of my thinking, not just the final result.
 
 If you're reading this, you probably want to understand the guts of the system. The [README](../README.md) has the quick overview; this document goes deep.
 
