@@ -55,6 +55,7 @@ Supports `CREATE TABLE`, `INSERT` (including batch), `SELECT` (with `WHERE`), `I
 ```bash
 git clone https://github.com/intjshiv-lab/FlexQL.git
 cd FlexQL/flexql
+
 make start                   # builds server, client, tests, benchmark
 make bench                   # runs benchmarks
 make stop                    # kills server,client, tests , benchmark
