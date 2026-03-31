@@ -13,14 +13,10 @@ Github : https://github.com/intjshiv-lab/FlexQL
 > **v2.0 Change Note:** Added persistent storage via Write-Ahead Log (WAL) + binary snapshots.  
 > Backward-compatible: `--data-dir` flag enables persistence; default remains in-memory.
 
----
 
-> *"The best database systems are not clever — they are relentlessly simple in architecture*  
-> *and relentlessly disciplined in implementation."*  
-> — Jeff Dean
 
 <blockquote>
-<font color="darkgreen">
+<font color="#006400">...</font>
 <em>"The best database systems are not clever — they are relentlessly simple in architecture<br>
 and relentlessly disciplined in implementation."</em><br>
 — Jeff Dean
