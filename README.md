@@ -1,5 +1,5 @@
 ```markdown
-# FlexQL
+FlexQL
 
 > A from-scratch SQL database engine with persistence. C++17, zero dependencies, ~7,333 lines.
 
@@ -9,7 +9,7 @@ Benchmarked at **10 million rows** with v2.2 performance numbers.
 
 ---
 
-### What's inside
+What's inside
 
  SQL string
      │
