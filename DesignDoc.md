@@ -1235,4 +1235,4 @@ Adding a serialization framework would violate the "no external libraries" const
 ---
 
 *Ramesh Choudhary — March 2026*  
-*FlexQL v2.0.0 · 46 files · ~6,800 lines of C++17 · 92 tests*
+
