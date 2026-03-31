@@ -31,29 +31,7 @@ Benchmarked at **10 million rows** with v2.2 performance numbers.
               │ Lock Manager       │
               │ TTL Reaper (bg)    │
               └────────────────────┘
-```markdown
-### What's inside
-
-```text
- SQL string
-     │
-     ▼
- ┌────────┐   ┌────────┐   ┌──────────┐
- │ Lexer  │──▶│ Parser │──▶│ Executor │
- └────────┘   └────────┘   └────┬─────┘
-                                 │
-                    ┌────────────┼────────────┐
-                    ▼            ▼            ▼
-              ┌──────────┐ ┌─────────┐ ┌──────────┐
-              │ LRU Cache│ │ Storage │ │ B+ Tree  │
-              │          │ │ (Arena) │ │  Index   │
-              └──────────┘ └─────────┘ └──────────┘
-                    │
-              ┌─────┴──────────────┐
-              │ Thread Pool        │
-              │ Lock Manager       │
-              │ TTL Reaper (bg)    │
-              └────────────────────┘
+`
 ```
 
 - **Arena allocator** — bump-pointer allocation, avoids per-row `malloc` overhead
