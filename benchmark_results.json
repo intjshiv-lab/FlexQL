@@ -1,0 +1,10 @@
+{
+  "rows": 10000000,
+  "results": [
+    {"name": "INSERT 10000000 rows", "elapsed_ms": 19378.39, "row_count": 10000000, "rows_per_sec": 516039},
+    {"name": "SELECT * (full scan)", "elapsed_ms": 7067.01, "row_count": 10000000, "rows_per_sec": 1415025},
+    {"name": "Point lookup (100 queries)", "elapsed_ms": 28.95, "row_count": 100, "rows_per_sec": 3454},
+    {"name": "Range scan (top 5%)", "elapsed_ms": 222.90, "row_count": 499999, "rows_per_sec": 2243111},
+    {"name": "INNER JOIN (100000 x 1K)", "elapsed_ms": 53.73, "row_count": 100000, "rows_per_sec": 1861093}
+  ]
+}

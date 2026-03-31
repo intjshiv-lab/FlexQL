@@ -1,0 +1,72 @@
+# ============================================================================
+#  FlexQL — .gitignore
+# ============================================================================
+
+# ─── Build outputs ──────────────────────────────────────────────────────────
+flexql/build/
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dylib
+*.out
+*.exe
+*.dSYM/
+
+# ─── CMake ──────────────────────────────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+Makefile.cmake
+CTestTestfile.cmake
+Testing/
+
+# ─── IDE & Editor files ────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.cproject
+.settings/
+
+# ─── macOS ──────────────────────────────────────────────────────────────────
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ─── Linux ──────────────────────────────────────────────────────────────────
+*~
+
+# ─── Windows ────────────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ─── Python (used for PDF extraction tooling) ──────────────────────────────
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+
+# ─── Logs & temp files ─────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+core
+core.*
+
+# ─── PDF images (extracted, not source) ─────────────────────────────────────
+pdf_images/
+
+# ─── Vault (internal project genesis documents) ─────────────────────────────
+vault/
