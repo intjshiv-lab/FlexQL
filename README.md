@@ -225,9 +225,6 @@ MIT — see [LICENSE](LICENSE).
 
 Built by [Ramesh Choudhary](https://github.com/intjshiv-lab).  
 **v2.2** — March 2026
-```
-
----
 
 **Key updates from v1.0 → v2.2:**
 - ✅ Benchmark numbers updated to reflect v2.2 performance (with WAL enabled)
@@ -237,3 +234,5 @@ Built by [Ramesh Choudhary](https://github.com/intjshiv-lab).
 - ✅ New sections for C API and detailed statistics
 - ✅ Link to comprehensive DesignDoc.md
 - ✅ All limitations clearly documented
+
+
