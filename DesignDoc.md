@@ -15,13 +15,10 @@ Github : https://github.com/intjshiv-lab/FlexQL
 
 
 
-<blockquote>
-<font color="#006400">...</font>
-<em>"The best database systems are not clever — they are relentlessly simple in architecture<br>
+"The best database systems are not clever — they are relentlessly simple in architecture<br>
 and relentlessly disciplined in implementation."</em><br>
 — Jeff Dean
-</font>
-</blockquote>
+
 
 ---
 
