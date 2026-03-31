@@ -19,19 +19,27 @@ Github : https://github.com/intjshiv-lab/FlexQL
 > *and relentlessly disciplined in implementation."*  
 > — Jeff Dean
 
+<blockquote>
+<font color="darkgreen">
+<em>"The best database systems are not clever — they are relentlessly simple in architecture<br>
+and relentlessly disciplined in implementation."</em><br>
+— Jeff Dean
+</font>
+</blockquote>
+
 ---
 
 ## Table of Contents
 
-1. [Document Purpose & Audience](#1-document-purpose--audience)
-2. [System Overview & Goals](#2-system-overview--goals)
-3. [Architecture Overview](#3-architecture-overview)
-4. [Wireframe Diagrams](#4-wireframe-diagrams)
-5. [Design Decisions — The "Why" and "Why Not"](#5-design-decisions--the-why-and-why-not)
-6. [Module-by-Module Deep Dive](#6-module-by-module-deep-dive)
-7. [Data Type System](#7-data-type-system)
-8. [Storage Engine Design](#8-storage-engine-design)
-9. [B+ Tree Indexing Design](#9-b-tree-indexing-design)
+1.  [Document Purpose & Audience](#1-document-purpose--audience)
+2.  [System Overview & Goals](#2-system-overview--goals)
+3.  [Architecture Overview](#3-architecture-overview)
+4.  [Wireframe Diagrams](#4-wireframe-diagrams)
+5.  [Design Decisions — The "Why" and "Why Not"](#5-design-decisions--the-why-and-why-not)
+6.  [Module-by-Module Deep Dive](#6-module-by-module-deep-dive)
+7.  [Data Type System](#7-data-type-system)
+8.  [Storage Engine Design](#8-storage-engine-design)
+9.  [B+ Tree Indexing Design](#9-b-tree-indexing-design)
 10. [Query Parser Design](#10-query-parser-design)
 11. [Query Executor Design](#11-query-executor-design)
 12. [Cache Layer Design](#12-cache-layer-design)
