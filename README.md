@@ -55,7 +55,9 @@ Supports `CREATE TABLE`, `INSERT` (including batch), `SELECT` (with `WHERE`), `I
 ```bash
 git clone https://github.com/intjshiv-lab/FlexQL.git
 cd FlexQL/flexql
-make all                   # builds server, client, tests, benchmark
+make start                   # builds server, client, tests, benchmark
+make bench                   # runs benchmarks
+make stop                    # kills server,client, tests , benchmark
 ```
 
 ```bash
@@ -83,7 +85,7 @@ mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release && make -j$(nproc
 
 ---
 
-### Benchmarks (v2.2)
+**Benchmarks (v2.2)**
 
 **10M rows on benchmark system with `-O3 -flto -march=native` and hot-path annotations:**
 
