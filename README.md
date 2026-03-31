@@ -11,7 +11,6 @@ Benchmarked at **10 million rows** with v2.2 performance numbers.
 
 ### What's inside
 
-```text
  SQL string
      │
      ▼
