@@ -6,7 +6,7 @@
 
 Github : https://github.com/intjshiv-lab/FlexQL 
 
-> **v2.2 Change Note:** Added batch insert support (`INSERT INTO t VALUES (...), (...), ...`), non-equality JOIN operators (`<`, `>`, `<=`, `>=` via Nested Loop Join), and integrated evaluation benchmark. All 21/21 unit tests pass.
+> **v2.2 Change Note:** Added batch insert support (`INSERT INTO t VALUES (...), (...), ...`), non-equality JOIN operators (`<`, `>`, `<=`, `>=` via Nested Loop Join), and integrated evaluation benchmark. All 21/21 unit tests pass.Persistence by default.
 
 > **v2.1 Change Note:** Added aggressive compiler tuning (`-O3 -flto -march=native`) and hot-path annotations (`__attribute__((hot))`) yielding 15-25% throughput improvement. 
 
